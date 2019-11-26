@@ -50,4 +50,6 @@
 	
 # bq Devices
    PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/chaozulite/pa_chaozulite.mk
+    $(LOCAL_DIR)/chaozulite/pa_chaozulite.mk \
+    $(LOCAL_DIR)/chaozu/pa_chaozu.mk \
+    $(LOCAL_DIR)/tenshi/pa_tenshi.mk
