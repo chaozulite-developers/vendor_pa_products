@@ -47,9 +47,9 @@
     $(LOCAL_DIR)/dora/pa_dora.mk \
     $(LOCAL_DIR)/kagura/pa_kagura.mk \
     $(LOCAL_DIR)/keyaki/pa_keyaki.mk
-	
-# bq Devices
-   PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/chaozulite/pa_chaozulite.mk \
+
+# BQ Devices
+PRODUCT_MAKEFILES += \
+    $(LOCAL_DIR)/tenshi/pa_tenshi.mk \
     $(LOCAL_DIR)/chaozu/pa_chaozu.mk \
-    $(LOCAL_DIR)/tenshi/pa_tenshi.mk
+    $(LOCAL_DIR)/chaozulite/pa_chaozulite.mk
