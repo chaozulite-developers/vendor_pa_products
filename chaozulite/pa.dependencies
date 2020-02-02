@@ -1,8 +1,20 @@
 [
   {
-    "target_path": "kernel/bq/msm8937",
-    "repository":  "chaozulite-developers/android_kernel_bq_msm8937",
-    "remote":      "github",
-    "revision":    "quartz"
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_hardware_qcom_audio",
+    "target_path":  "hardware/qcom/audio",
+    "revision":     "nougat-mr2-8996"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_hardware_qcom_display",
+    "target_path":  "hardware/qcom/display",
+    "revision":     "nougat-mr2-8996"
+  },
+  {
+    "remote":       "aospa",
+    "repository":   "AOSPA/android_hardware_qcom_media",
+    "target_path":  "hardware/qcom/media",
+    "revision":     "nougat-mr2-8996"
   }
 ]
